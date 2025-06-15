@@ -5,7 +5,10 @@ import torch.nn as nn
 from config import args
 from datetime import datetime
 import torch.nn.functional as F
-from model.AFDGCN import Model as Network
+if args.model == 'AFDGCN':
+    from model.AFDGCN import Model as Network
+elif args.model == 'APPNP':
+    from model.APPNP import Model as Network
 from engine import Engine
 from lib.metrics import MAE_torch
 from lib.TrainInits import init_seed
