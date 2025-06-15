@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Input and output file paths
-input_file = 'C:\\Users\\beyza\\Downloads\\test_results_garson.csv'  # Replace with the path to your input file
+input_file = './test_results_appnp.csv' # Replace with the path to your input file
 output_file = 'test_gar.csv'  # Replace with the desired path for the output file
 
 # Read the input CSV file
