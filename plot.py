@@ -4,7 +4,7 @@ import matplotlib.dates as mdates
 from matplotlib.ticker import FuncFormatter
 
 # Load Real Data
-real_data_path = r"./real_flow_gar_yeni.csv"
+real_data_path = './data/PEMS04/PEMS04.csv'
 df_real = pd.read_csv(real_data_path)
 
 # Load Prediction Data
