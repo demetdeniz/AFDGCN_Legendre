@@ -39,7 +39,7 @@ args.add_argument('--graph_path', default=GRAPH, type=str)
 args.add_argument('--normalized_k', default=K, type=float)
 args.add_argument('--filename_id', default=FILENAME_ID, type=str)
 # 3. data
-args.add_argument('--val_ratio', default=config['data']['val_ratio'], type=float)
+args.add_argument('--val_ratio', default=0.1, type=float)
 args.add_argument('--test_ratio', default=config['data']['test_ratio'], type=float)
 args.add_argument('--lag', default=config['data']['lag'], type=int)
 args.add_argument('--horizon', default=config['data']['horizon'], type=int)
